@@ -1,4 +1,5 @@
 # Project title: Classification of hyperspectral images of brain using machine learning # 
+The goal of the project is to generate the pixelwise ground truths from hyperspectral images and utilize those ground truths for training different U-Net based models for semantic segmentation.
 
 # Dataset description # 
 
