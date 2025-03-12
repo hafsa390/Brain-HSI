@@ -27,7 +27,10 @@ The data preprocessing pipeline consists of below steps illustrated in data_prep
 
 ### Machine learning model training for pixelwise ground truth generation ###
 
+The random forest model is used for pixelwise ground truth generation. 
 
+Three-way data partition was performed with 5-fold cross validation. The data partition was done patient-wise. 
+For each fold, the number of trees in RF model is optimized from 1 to 100 with a step size of 10. The macro F1 score is computed with different number of trees, and the model with best macro F1 score is considered for that fold.       
 
  
 
