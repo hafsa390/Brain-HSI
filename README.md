@@ -33,6 +33,6 @@ Three-way data partition was performed with 5-fold cross validation. The data pa
 For each fold, the number of trees in RF model is optimized from 1 to 100 with a step size of 10. The macro F1 score is computed with different number of trees, and the model with best macro F1 score is considered for that fold.       
 
 The preprocessing and generated classification map is shown in the below figure:
-![Alt text](https://docs.google.com/drawings/d/1PvT5kKrtu9c1SIFuCGWAXpQRAStot2cbPsmgJzWHVCc/edit?usp=sharing)
+![Alt text](https://github.com/hafsa390/Brain-HSI/blob/master/Untitled%20drawing.jpg)
 
 
